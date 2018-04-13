@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ConcurSearch" time="75" tests="2" failures="0" errors="0">
+   <testsuite name="ConcurSearch" tests="2" failures="0" errors="0" time="75" timestamp="2018-04-12 17:10:55" hostname="rdavilac - CAPAGS-EC0842.corp.capgemini.com" id="Test Suites/ConcurSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180412_171052"/>
+         <property name="logFiles" value="C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180412_171052\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rdavilac - CAPAGS-EC0842.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="5.250.123.223"/>
+         <property name="sessionId" value="99ca8495ef0417570acf84728fc24f09"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Concur_Seach_1" classname="Test Cases/Concur_Seach_1" status="PASSED">
+         <system-out><![CDATA[2018-04-12 17:10:55 - [TEST_CASE][PASSED] - Test Cases/Concur_Seach_1: Test Cases/Concur_Seach_1
+
+2018-04-12 17:10:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-12 17:11:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-12 17:11:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.concursolutions.com/' successfully
+
+2018-04-12 17:11:05 - [MESSAGE][PASSED] - Navigate to 'https://www.concursolutions.com/' successfully
+
+2018-04-12 17:11:05 - [TEST_STEP][PASSED] - setText: Text 'rodrigo_davila-cedillo@capgemini.com' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_userid'
+
+2018-04-12 17:11:06 - [MESSAGE][PASSED] - Text 'rodrigo_davila-cedillo@capgemini.com' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_userid'
+
+2018-04-12 17:11:06 - [TEST_STEP][PASSED] - setText: Text 'Capgemini91' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_password'
+
+2018-04-12 17:11:06 - [MESSAGE][PASSED] - Text 'Capgemini91' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_password'
+
+2018-04-12 17:11:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_btnSubmit' is clicked on
+
+2018-04-12 17:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_btnSubmit' is clicked on
+
+2018-04-12 17:11:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0' is clicked on
+
+2018-04-12 17:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0' is clicked on
+
+2018-04-12 17:11:12 - [TEST_STEP][PASSED] - setText: Text 'Aguascalientes' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0'
+
+2018-04-12 17:11:13 - [MESSAGE][PASSED] - Text 'Aguascalientes' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0'
+
+2018-04-12 17:11:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/a_AGU Aguascalientes AirportAg' is clicked on
+
+2018-04-12 17:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/a_AGU Aguascalientes AirportAg' is clicked on
+
+2018-04-12 17:11:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0' is clicked on
+
+2018-04-12 17:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0' is clicked on
+
+2018-04-12 17:11:14 - [TEST_STEP][PASSED] - setText: Text 'new york' is set on object 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0'
+
+2018-04-12 17:11:15 - [MESSAGE][PASSED] - Text 'new york' is set on object 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0'
+
+2018-04-12 17:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/a_NYC New York Area AirportsNe' is clicked on
+
+2018-04-12 17:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/a_NYC New York Area AirportsNe' is clicked on
+
+2018-04-12 17:11:16 - [TEST_STEP][PASSED] - setText: Text '08/08/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate0'
+
+2018-04-12 17:11:17 - [MESSAGE][PASSED] - Text '08/08/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate0'
+
+2018-04-12 17:11:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value ' 9' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening'  using regular expression
+
+2018-04-12 17:11:17 - [MESSAGE][PASSED] - All options with value ' 9' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening'  using regular expression
+
+2018-04-12 17:11:17 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Concur_search/Page_Home/input_fltDate1' is double clicked on
+
+2018-04-12 17:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltDate1' is double clicked on
+
+2018-04-12 17:11:17 - [TEST_STEP][PASSED] - setText: Text '10/10/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate1'
+
+2018-04-12 17:11:18 - [MESSAGE][PASSED] - Text '10/10/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate1'
+
+2018-04-12 17:11:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value ' 21' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening_1'  using regular expression
+
+2018-04-12 17:11:19 - [MESSAGE][PASSED] - All options with value ' 21' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening_1'  using regular expression
+
+2018-04-12 17:11:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/button_Search' is clicked on
+
+2018-04-12 17:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/button_Search' is clicked on
+
+2018-04-12 17:11:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' is clicked on
+
+2018-04-12 17:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' is clicked on
+
+2018-04-12 17:11:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/div_function submit_form(hasre' is clicked on
+
+2018-04-12 17:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/div_function submit_form(hasre' is clicked on
+
+2018-04-12 17:11:51 - [TEST_STEP][PASSED] - setText: Text 'this is just a test :)' is set on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/textarea_brokenrulejustificati'
+
+2018-04-12 17:11:52 - [MESSAGE][PASSED] - Text 'this is just a test :)' is set on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/textarea_brokenrulejustificati'
+
+2018-04-12 17:11:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '973494' are selected in object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/select_-- Please Choose a Reas'  using regular expression
+
+2018-04-12 17:11:52 - [MESSAGE][PASSED] - All options with value '973494' are selected in object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/select_-- Please Choose a Reas'  using regular expression
+
+2018-04-12 17:11:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/input_btnSave' is clicked on
+
+2018-04-12 17:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/input_btnSave' is clicked on
+
+2018-04-12 17:11:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-12 17:11:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/wikipedia_test_1" classname="Test Cases/wikipedia_test_1" status="PASSED">
+         <system-out><![CDATA[2018-04-12 17:11:54 - [TEST_CASE][PASSED] - Test Cases/wikipedia_test_1: Test Cases/wikipedia_test_1
+
+2018-04-12 17:11:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-12 17:11:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-12 17:11:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-04-12 17:12:01 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-04-12 17:12:01 - [TEST_STEP][PASSED] - setText: Text 'Ragnar lothbrok' is set on object 'Object Repository/Wiki_search/Page_Wikipedia/input_search'
+
+2018-04-12 17:12:01 - [MESSAGE][PASSED] - Text 'Ragnar lothbrok' is set on object 'Object Repository/Wiki_search/Page_Wikipedia/input_search'
+
+2018-04-12 17:12:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Wikipedia/button_pure-button pure-button' is clicked on
+
+2018-04-12 17:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Wikipedia/button_pure-button pure-button' is clicked on
+
+2018-04-12 17:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Ragnar Lodbrok - Wikipedia/a_Edwin Atherstone' is clicked on
+
+2018-04-12 17:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Ragnar Lodbrok - Wikipedia/a_Edwin Atherstone' is clicked on
+
+2018-04-12 17:12:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Edwin Atherstone - Wikipedia/a_Main page' is clicked on
+
+2018-04-12 17:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Edwin Atherstone - Wikipedia/a_Main page' is clicked on
+
+2018-04-12 17:12:06 - [TEST_STEP][PASSED] - setText: Text 'random:quote' is set on object 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_search'
+
+2018-04-12 17:12:06 - [MESSAGE][PASSED] - Text 'random:quote' is set on object 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_search'
+
+2018-04-12 17:12:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_go' is clicked on
+
+2018-04-12 17:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_go' is clicked on
+
+2018-04-12 17:12:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_randomquote - Search results -/a_Random number generation' is clicked on
+
+2018-04-12 17:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_randomquote - Search results -/a_Random number generation' is clicked on
+
+2018-04-12 17:12:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-12 17:12:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-12 17:10:55 - [TEST_SUITE][PASSED] - ConcurSearch: Test Cases/wikipedia_test_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

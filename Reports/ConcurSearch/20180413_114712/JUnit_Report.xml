@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ConcurSearch" time="75" tests="1" failures="1" errors="0">
+   <testsuite name="ConcurSearch" tests="1" failures="1" errors="0" time="75" timestamp="2018-04-13 11:47:15" hostname="rdavilac - CAPAGS-EC0842.corp.capgemini.com" id="Test Suites/ConcurSearch">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180413_114712"/>
+         <property name="logFiles" value="C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180413_114712\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180413_114712\\1523638093197.png"/>
+         <property name="hostName" value="rdavilac - CAPAGS-EC0842.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="5.250.126.148"/>
+         <property name="sessionId" value="400a3e6dcc6598ecbb5881a0d52988ad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Concur_Seach_1" classname="Test Cases/Concur_Seach_1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)"/>
+         <system-out><![CDATA[2018-04-13 11:47:15 - [TEST_CASE][FAILED] - Test Cases/Concur_Seach_1: Test Cases/Concur_Seach_1 FAILED because (of) Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)
+
+2018-04-13 11:47:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-13 11:47:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-13 11:47:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.concursolutions.com/' successfully
+
+2018-04-13 11:47:24 - [MESSAGE][PASSED] - Navigate to 'https://www.concursolutions.com/' successfully
+
+2018-04-13 11:47:24 - [TEST_STEP][PASSED] - setText: Text 'rodrigo_davila-cedillo@capgemini.com' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_userid'
+
+2018-04-13 11:47:25 - [MESSAGE][PASSED] - Text 'rodrigo_davila-cedillo@capgemini.com' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_userid'
+
+2018-04-13 11:47:25 - [TEST_STEP][PASSED] - setText: Text 'Capgemini91' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_password'
+
+2018-04-13 11:47:25 - [MESSAGE][PASSED] - Text 'Capgemini91' is set on object 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_password'
+
+2018-04-13 11:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_btnSubmit' is clicked on
+
+2018-04-13 11:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Sign in to Concur  Concur Solu/input_btnSubmit' is clicked on
+
+2018-04-13 11:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0' is clicked on
+
+2018-04-13 11:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0' is clicked on
+
+2018-04-13 11:47:33 - [TEST_STEP][PASSED] - setText: Text 'Aguascalientes' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0'
+
+2018-04-13 11:47:34 - [MESSAGE][PASSED] - Text 'Aguascalientes' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDepCityDisplay0'
+
+2018-04-13 11:47:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/a_AGU Aguascalientes AirportAg' is clicked on
+
+2018-04-13 11:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/a_AGU Aguascalientes AirportAg' is clicked on
+
+2018-04-13 11:47:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0' is clicked on
+
+2018-04-13 11:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0' is clicked on
+
+2018-04-13 11:47:35 - [TEST_STEP][PASSED] - setText: Text 'new york' is set on object 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0'
+
+2018-04-13 11:47:36 - [MESSAGE][PASSED] - Text 'new york' is set on object 'Object Repository/Concur_search/Page_Home/input_fltArrCityDisplay0'
+
+2018-04-13 11:47:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/a_NYC New York Area AirportsNe' is clicked on
+
+2018-04-13 11:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/a_NYC New York Area AirportsNe' is clicked on
+
+2018-04-13 11:47:37 - [TEST_STEP][PASSED] - setText: Text '08/08/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate0'
+
+2018-04-13 11:47:38 - [MESSAGE][PASSED] - Text '08/08/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate0'
+
+2018-04-13 11:47:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value ' 9' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening'  using regular expression
+
+2018-04-13 11:47:38 - [MESSAGE][PASSED] - All options with value ' 9' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening'  using regular expression
+
+2018-04-13 11:47:38 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Concur_search/Page_Home/input_fltDate1' is double clicked on
+
+2018-04-13 11:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/input_fltDate1' is double clicked on
+
+2018-04-13 11:47:38 - [TEST_STEP][PASSED] - setText: Text '10/10/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate1'
+
+2018-04-13 11:47:39 - [MESSAGE][PASSED] - Text '10/10/2018' is set on object 'Object Repository/Concur_search/Page_Home/input_fltDate1'
+
+2018-04-13 11:47:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value ' 21' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening_1'  using regular expression
+
+2018-04-13 11:47:40 - [MESSAGE][PASSED] - All options with value ' 21' are selected in object 'Object Repository/Concur_search/Page_Home/select_MorningAfternoonEvening_1'  using regular expression
+
+2018-04-13 11:47:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Concur_search/Page_Home/button_Search' is clicked on
+
+2018-04-13 11:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Concur_search/Page_Home/button_Search' is clicked on
+
+2018-04-13 11:47:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)
+
+2018-04-13 11:48:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)
+[[ATTACHMENT|C:\\Users\\rdavilac\\git\\katalon_test\\Reports\\ConcurSearch\\20180413_114712\\1523638093197.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-13 11:47:15 - [TEST_CASE][FAILED] - Test Cases/Concur_Seach_1: Test Cases/Concur_Seach_1 FAILED because (of) Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/wikipedia_test_1" classname="Test Cases/wikipedia_test_1" status="PASSED">
+         <system-out><![CDATA[2018-04-13 11:48:13 - [TEST_CASE][PASSED] - Test Cases/wikipedia_test_1: Test Cases/wikipedia_test_1
+
+2018-04-13 11:48:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-13 11:48:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-13 11:48:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-13 11:48:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-04-13 11:48:19 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-04-13 11:48:19 - [TEST_STEP][PASSED] - setText: Text 'Ragnar lothbrok' is set on object 'Object Repository/Wiki_search/Page_Wikipedia/input_search'
+
+2018-04-13 11:48:20 - [MESSAGE][PASSED] - Text 'Ragnar lothbrok' is set on object 'Object Repository/Wiki_search/Page_Wikipedia/input_search'
+
+2018-04-13 11:48:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Wikipedia/button_pure-button pure-button' is clicked on
+
+2018-04-13 11:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Wikipedia/button_pure-button pure-button' is clicked on
+
+2018-04-13 11:48:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Ragnar Lodbrok - Wikipedia/a_Edwin Atherstone' is clicked on
+
+2018-04-13 11:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Ragnar Lodbrok - Wikipedia/a_Edwin Atherstone' is clicked on
+
+2018-04-13 11:48:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Edwin Atherstone - Wikipedia/a_Main page' is clicked on
+
+2018-04-13 11:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Edwin Atherstone - Wikipedia/a_Main page' is clicked on
+
+2018-04-13 11:48:26 - [TEST_STEP][PASSED] - setText: Text 'random:quote' is set on object 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_search'
+
+2018-04-13 11:48:26 - [MESSAGE][PASSED] - Text 'random:quote' is set on object 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_search'
+
+2018-04-13 11:48:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_go' is clicked on
+
+2018-04-13 11:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_Wikipedia the free encyclopedi/input_go' is clicked on
+
+2018-04-13 11:48:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Wiki_search/Page_randomquote - Search results -/a_Random number generation' is clicked on
+
+2018-04-13 11:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Wiki_search/Page_randomquote - Search results -/a_Random number generation' is clicked on
+
+2018-04-13 11:48:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-13 11:48:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-13 11:47:15 - [TEST_SUITE][FAILED] - ConcurSearch: Test Cases/Concur_Seach_1 FAILED because (of) Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-13 11:47:15 - [TEST_SUITE][FAILED] - ConcurSearch: Test Cases/Concur_Seach_1 FAILED because (of) Unable to click on object 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Concur_search/Page_Concur Travel - Air Search Res/button_MXN32857.00' located by 'By.xpath: //button[@type = 'button' and @id = 'reserveBtn_1' and @name = 'rad_result' and (text() = 'MXN 32,857.00' or . = 'MXN 32,857.00')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
